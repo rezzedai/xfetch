@@ -174,9 +174,9 @@ interface PostData {
 
 **Browser DevTools?** Works for one-off tasks, but xfetch is scriptable, CI-friendly, and outputs clean JSON instead of raw HTML.
 
-## Want More?
+## What's Next?
 
-xfetch extracts content from one platform. [Rezzed Grid-as-a-Service](https://rezzed.ai) orchestrates multi-agent content pipelines — extraction, analysis, voice profiling, and publishing with coordinated AI agents.
+More tools coming from the @rezzedai toolkit. See [rezzed.ai](https://rezzed.ai) for updates.
 
 Turn social media monitoring from a manual chore into an autonomous workflow.
 
