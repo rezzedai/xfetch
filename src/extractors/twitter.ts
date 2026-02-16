@@ -17,7 +17,7 @@ interface PageExtraction {
   images: string[];
 }
 
-function parseMetrics(raw: string[]): PostMetrics {
+export function parseMetrics(raw: string[]): PostMetrics {
   return {
     replies: raw[0] ?? null,
     reposts: raw[1] ?? null,

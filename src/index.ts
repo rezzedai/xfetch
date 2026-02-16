@@ -3,7 +3,7 @@ import type { PostData, FetchOptions } from "./types";
 
 export type { PostData, PostMetrics, ThreadPost, FetchOptions } from "./types";
 
-function detectPlatform(url: string): "twitter" | null {
+export function detectPlatform(url: string): "twitter" | null {
   const host = new URL(url).hostname.replace("www.", "");
   if (host === "x.com" || host === "twitter.com") return "twitter";
   return null;
