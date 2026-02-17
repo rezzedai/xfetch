@@ -1,4 +1,4 @@
-# @rezzedai/xfetch
+# @rezzed.ai/xfetch
 
 **Extract social media content from Twitter/X posts — no API keys required.**
 
@@ -19,7 +19,7 @@ npx xfetch https://x.com/user/status/123456789
 ## Install
 
 ```bash
-npm install @rezzedai/xfetch
+npm install @rezzed.ai/xfetch
 ```
 
 **Requirements:** Node.js 18+, Playwright (installed automatically)
@@ -48,7 +48,7 @@ xfetch --timeout 60000 https://x.com/user/status/123
 
 **Programmatic:**
 ```typescript
-import { fetchPost } from '@rezzedai/xfetch';
+import { fetchPost } from '@rezzed.ai/xfetch';
 
 const post = await fetchPost('https://x.com/user/status/123456789');
 console.log(post.text);
@@ -74,7 +74,7 @@ const post = await fetchPost('https://x.com/user/status/123', {
 ## Programmatic API
 
 ```typescript
-import { fetchPost, PostData, FetchOptions } from '@rezzedai/xfetch';
+import { fetchPost, PostData, FetchOptions } from '@rezzed.ai/xfetch';
 
 // Main function
 async function fetchPost(
@@ -176,7 +176,7 @@ interface PostData {
 
 ## What's Next?
 
-More tools coming from the @rezzedai toolkit. See [rezzed.ai](https://rezzed.ai) for updates.
+More tools coming from the @rezzed.ai toolkit. See [rezzed.ai](https://rezzed.ai) for updates.
 
 Turn social media monitoring from a manual chore into an autonomous workflow.
 

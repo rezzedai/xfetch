@@ -1,5 +1,5 @@
 {
-  "name": "@rezzedai/xfetch",
+  "name": "@rezzed.ai/xfetch",
   "version": "0.1.0",
   "description": "Social media content extraction via Playwright",
   "main": "dist/index.js",
