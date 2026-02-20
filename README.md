@@ -1,5 +1,9 @@
 # @rezzed.ai/xfetch
 
+[![npm version](https://img.shields.io/npm/v/@rezzed.ai/xfetch.svg)](https://www.npmjs.com/package/@rezzed.ai/xfetch)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg)](https://nodejs.org)
+
 **Extract social media content from Twitter/X posts — no API keys required.**
 
 ```bash
@@ -186,4 +190,4 @@ MIT
 
 ---
 
-Built by [Rezzed](https://rezzed.ai) — the AI product studio.
+Built by [Rezzed.ai](https://rezzed.ai)
